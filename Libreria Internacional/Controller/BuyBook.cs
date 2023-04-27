@@ -53,7 +53,7 @@ namespace Libreria_Internacional.Controller
             {
                 return new m.BuyBook
                 {
-                    Id = Convert.ToInt16(row["resortId"]),
+                    Id = Convert.ToInt16(row["bookId"]),
                     BuyBookId = Convert.ToInt16(row["buybookId"]),
                     Name = row["name"].ToString(),
                     LastName = row["lastname"].ToString(),
